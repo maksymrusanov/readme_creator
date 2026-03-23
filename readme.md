@@ -1,39 +1,47 @@
-# Readme Creator
+# README Creator
 
-A specialized utility designed to automate the generation of high-quality, professional `README.md` files for software repositories. This tool ensures project documentation is consistent, comprehensive, and follows industry best practices.
+Created by AI. README Creator is a streamlined tool designed to automate the generation of professional and comprehensive README.md files for software repositories. It ensures that project documentation is consistent, technically accurate, and follows industry best practices for clarity and structure.
 
 ## Features
 
-- **Automated Structuring**: Generates standardized sections including Project Title, Description, Features, and Installation.
-- **Consistent Formatting**: Ensures clean and valid Markdown syntax throughout the document.
-- **Technical Writing Focus**: Built-in logic to prioritize essential information and maintain technical accuracy.
-- **Streamlined Workflow**: Reduces the time developers spend on manual documentation tasks.
+*   **Automated Structuring**: Generates essential sections including Title, Description, Features, and Installation automatically.
+*   **Technical Writing Standards**: Employs professional language and clear formatting suitable for developers and stakeholders.
+*   **Markdown Consistency**: Uses standardized Markdown syntax with proper code block hints and header hierarchies.
+*   **Ready-to-Use Output**: Produces a finalized file that can be committed directly to any repository.
 
 ## Installation
 
 To set up the project locally, follow these steps:
 
-```bash
-# Clone the repository
-git clone git@github.com:maksymrusanov/readme_creator.git
+1.  **Clone the repository**
+    ```bash
+    git clone git@github.com:maksymrusanov/readme_creator.git
+    ```
 
-# Navigate into the project directory
-cd readme_creator
+2.  **Navigate to the project directory**
+    ```bash
+    cd readme_creator
+    ```
 
-# Install dependencies (generic example - adjust based on specific environment)
-npm install # or pip install -r requirements.txt
-```
+3.  **Install dependencies** (Assuming a standard Node.js or Python environment based on project type)
+    ```bash
+    # For Node.js projects:
+    npm install
+
+    # OR for Python projects:
+    pip install -r requirements.txt
+    ```
 
 ## Contributing
 
-Contributions are welcome to help improve the functionality and output of the Readme Creator. To contribute:
+Contributions are welcome! If you would like to improve this project, please follow these steps:
 
-1. Fork the repository.
-2. Create a new feature branch (`git checkout -b feature/improvement`).
-3. Commit your changes (`git commit -m 'Add some improvement'`).
-4. Push to the branch (`git push origin feature/improvement`).
-5. Open a Pull Request.
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature/YourFeature`).
+3.  Commit your changes (`git commit -m 'Add some feature'`).
+4.  Push to the branch (`git push origin feature/YourFeature`).
+5.  Open a Pull Request.
 
 ## License
 
-Distributed under the [MIT](https://opensource.org/licenses/MIT) License. See `LICENSE` for more information.
+MIT
