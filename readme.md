@@ -31,16 +31,7 @@ Run the tool from the root of the project you wish to document.
 
 ### Basic Generation
 ```bash
-python main.py --path /path/to/your/project
-```
-
-### Advanced Options
-```bash
-# Generate a README with a custom output filename
-python main.py --path . --output DOCUMENTATION.md
-
-# Generate only specific sections
-python main.py --sections "description,installation,usage"
+python src/main.py 
 ```
 
 ## Contributing
