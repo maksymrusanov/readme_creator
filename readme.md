@@ -1,70 +1,61 @@
 # README Creator
 
-A streamlined CLI tool designed to automate the generation of professional, high-quality `README.md` files for software projects. This tool ensures consistency across repositories by following industry standards and technical writing best practices.
-
-## Description
-
-**README Creator** simplifies the documentation process by providing a structured framework for project metadata. It helps developers move from a bare repository to a fully documented project in minutes, ensuring that essential information like installation steps, usage instructions, and licensing are never overlooked.
+A professional CLI tool designed to automate the generation of high-quality, structured `README.md` files for software projects. This tool analyzes your repository structure and project metadata to produce consistent and technically accurate documentation.
 
 ## Features
 
-- **Automated Scaffolding**: Generates a standard Markdown structure instantly.
-- **Interactive CLI**: Prompts the user for project-specific details to ensure accuracy.
-- **Consistency**: Maintains a uniform look and feel across all your GitHub repositories.
-- **Markdown Optimized**: Produces clean, lint-friendly Markdown syntax.
+*   **Automated Analysis:** Scans project directories to identify technologies, languages, and project structure.
+*   **Template-Driven:** Utilizes standardized Markdown templates to ensure professional formatting.
+*   **Customizable Sections:** Allows users to toggle specific sections like Installation, Usage, and Contributing.
+*   **Lightweight & Fast:** Minimal dependencies for quick execution within any development environment.
+*   **Version Control Integration:** Designed to work seamlessly within Git workflows.
 
 ## Installation
 
-To install and set up the project locally, follow these steps:
+To install **README Creator**, clone the repository and install the necessary dependencies:
 
-1. **Clone the repository:**
-   ```bash
-   git clone git@github.com:maksymrusanov/readme_creator.git
-   cd readme_creator
-   ```
+```bash
+# Clone the repository
+git clone git@github.com:maksymrusanov/readme_creator.git
 
-2. **Set up a virtual environment (optional but recommended):**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
-   ```
+# Navigate to the project directory
+cd readme_creator
 
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+# Install dependencies (Example assumes a Python-based project)
+pip install -r requirements.txt
+```
 
 ## Usage
 
-To generate a new README file, run the main script from your terminal:
+Run the tool from the root of the project you wish to document.
 
+### Basic Generation
 ```bash
-python main.py
+python main.py --path /path/to/your/project
 ```
 
-Follow the on-screen prompts to enter your project name, description, features, and other relevant details. Once completed, a `README.md` file will be generated in your current working directory.
+### Advanced Options
+```bash
+# Generate a README with a custom output filename
+python main.py --path . --output DOCUMENTATION.md
 
-### Example
-```text
-? Project Title: My Awesome App
-? Description: A brief summary of the application...
-? License: MIT
-...
-[SUCCESS] README.md has been generated successfully!
+# Generate only specific sections
+python main.py --sections "description,installation,usage"
 ```
 
 ## Contributing
 
-Contributions are welcome! To contribute to this project, please follow these steps:
+Contributions are welcome to improve the logic and templates of README Creator. Please follow these steps:
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeatureName`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeatureName`).
-5. Open a Pull Request.
+1.  **Fork** the repository.
+2.  **Create a feature branch** (`git checkout -b feature/AmazingFeature`).
+3.  **Commit your changes** (`git commit -m 'Add some AmazingFeature'`).
+4.  **Push to the branch** (`git push origin feature/AmazingFeature`).
+5.  **Open a Pull Request**.
 
-Please ensure your code adheres to the existing style and includes appropriate tests.
+Please ensure your code adheres to the project's coding standards and includes appropriate unit tests.
 
-## License
+---
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+**Author:** [Maksym Rusanov](https://github.com/maksymrusanov)  
+**License:** This project is licensed under the MIT License.
