@@ -23,6 +23,7 @@ cd readme_creator
 
 # Install dependencies (Example assumes a Python-based project)
 pip install -r requirements.txt
+api_key = os.getenv("YOUR_APIKEY") ##can be Gemini,Copilot,whatever you like)
 ```
 
 ## Usage
