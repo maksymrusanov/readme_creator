@@ -16,7 +16,7 @@ A streamlined command-line interface (CLI) tool designed to help developers gene
 
 ## Installation
 
-To install the project locally, ensure you have [Node.js](https://nodejs.org/) installed, then follow these steps:
+To install the project locally, ensure you have [Python](https://python.org/) installed, then follow these steps:
 
 1. **Clone the repository:**
    ```bash
