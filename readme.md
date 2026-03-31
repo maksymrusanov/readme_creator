@@ -30,7 +30,7 @@ To install the project locally, ensure you have [Node.js](https://nodejs.org/) i
 
 3. **Install dependencies:**
    ```bash
-   npm install
+   python install -r requirements.txt
    ```
 
 ## Usage
@@ -38,10 +38,10 @@ To install the project locally, ensure you have [Node.js](https://nodejs.org/) i
 To start the interactive generator, run the following command in your terminal:
 
 ```bash
-node index.js
+python src/main.py
 ```
 
-Follow the on-screen prompts to enter your project name, description, installation instructions, and other relevant details. Once completed, a `README.md` file will be generated in your current working directory.
+Follow the on-screen prompts to enter your github url. Once completed, a `README.md` file will be generated in your current working directory.
 
 ## Contributing
 
