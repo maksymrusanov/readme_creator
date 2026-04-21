@@ -30,7 +30,7 @@ To install the project locally, ensure you have [Python](https://python.org/) in
 
 3. **Install dependencies:**
    ```bash
-   python install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 ## Usage
