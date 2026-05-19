@@ -38,7 +38,7 @@ To install the project locally, ensure you have [Python](https://python.org/) in
 To start the interactive generator, run the following command in your terminal:
 
 ```bash
-python src/main.py
+python main.py
 ```
 
 Follow the on-screen prompts to enter your github url. Once completed, a `README.md` file will be generated in your current working directory.
