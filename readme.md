@@ -1,65 +1,53 @@
-# Notes TG
+# README Creator
 
-A minimalist and efficient Telegram bot designed for capturing, organizing, and retrieving personal notes directly within the Telegram interface.
+A lightweight, CLI-based tool designed to automate the generation of standardized, professional `README.md` files for your development projects.
 
 ## Description
 
-**Notes TG** is a Python-based Telegram bot that acts as a personal digital notebook. It allows users to send messages, links, or snippets to a private chat, which are then parsed and stored for future reference. It is designed for users who want a frictionless way to save information without switching to dedicated note-taking apps.
+**README Creator** simplifies project documentation by providing a structured template engine. Instead of manually writing markdown files from scratch, developers can use this tool to quickly scaffold a consistent README that adheres to industry best practices, ensuring clarity and maintainability across all their repositories.
 
 ## Features
 
-*   **Quick Capture:** Save text notes instantly via Telegram messages.
-*   **Persistent Storage:** Notes are safely stored in a structured database.
-*   **Retrieval:** Easily query your saved notes.
-*   **Lightweight:** Minimal dependencies and low resource consumption.
-*   **Privacy-First:** Designed to run on your own infrastructure.
+*   **Standardized Structure:** Generates a professional template including Description, Features, Installation, Usage, Contributing, and License sections.
+*   **CLI-Driven:** Fast and easy to use directly from your terminal.
+*   **Lightweight:** Minimal dependencies and high performance.
+*   **Customizable:** Easily adaptable to fit specific project requirements.
 
 ## Installation
 
-### Prerequisites
-*   Python 3.9+
-*   A Telegram Bot Token (obtained via [@BotFather](https://t.me/botfather))
+Ensure you have [Python 3.x](https://www.python.org/) installed. Clone the repository and install the necessary dependencies:
 
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/maksymrusanov/notes_tg.git
-   cd notes_tg
-   ```
+```bash
+# Clone the repository
+git clone https://github.com/maksymrusanov/readme_creator.git
 
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+# Navigate to the project directory
+cd readme_creator
 
-3. Configure your environment variables:
-   Create a `.env` file in the root directory and add your credentials:
-   ```env
-   TELEGRAM_TOKEN=your_bot_token_here
-   ```
-
-4. Run the bot:
-   ```bash
-   python main.py
-   ```
+# Install requirements
+pip install -r requirements.txt
+```
 
 ## Usage
 
-1. Start a conversation with your bot on Telegram.
-2. Follow steps  to create a note.
+Run the tool from your terminal by executing the main script. Follow the interactive prompts to input your project details:
+
+```bash
+python main.py
+```
+
+The tool will generate a `README.md` file in the root directory (or your specified output path) based on your inputs.
 
 ## Contributing
 
-Contributions are welcome! Please follow these steps to contribute:
+Contributions are welcome! Please follow these steps to improve this project:
 
-1. **Fork** the repository.
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`).
-3. **Commit** your changes (`git commit -m 'Add some amazing feature'`).
-4. **Push** to the branch (`git push origin feature/amazing-feature`).
-5. **Open a Pull Request**.
-
-Please ensure your code follows PEP 8 guidelines and includes tests where applicable.
+1.  **Fork** the repository.
+2.  **Create** a feature branch (`git checkout -b feature/AmazingFeature`).
+3.  **Commit** your changes (`git commit -m 'Add some AmazingFeature'`).
+4.  **Push** to the branch (`git push origin feature/AmazingFeature`).
+5.  **Open** a Pull Request.
 
 ## License
 
-This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
+This project is licensed under the [MIT License](LICENSE).
