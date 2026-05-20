@@ -1,60 +1,65 @@
-# Readme Creator
+# Notes TG
 
-A streamlined command-line interface (CLI) tool designed to help developers generate professional, standardized, and high-quality `README.md` files for their projects in seconds.
+A minimalist and efficient Telegram bot designed for capturing, organizing, and retrieving personal notes directly within the Telegram interface.
 
 ## Description
 
-**Readme Creator** automates the tedious process of writing project documentation. By providing an interactive prompt-based workflow, it ensures that your repositories include essential sections required for open-source best practices, helping other developers understand, install, and contribute to your work effectively.
+**Notes TG** is a Python-based Telegram bot that acts as a personal digital notebook. It allows users to send messages, links, or snippets to a private chat, which are then parsed and stored for future reference. It is designed for users who want a frictionless way to save information without switching to dedicated note-taking apps.
 
 ## Features
 
-- **Interactive Prompts:** Step-by-step guidance to gather project details.
-- **Pre-defined Templates:** Built-in structures following industry standards.
-- **Dynamic Content Generation:** Automatically populates sections like Installation, Usage, and License.
-- **Lightweight:** Minimal dependencies for fast execution.
-- **Markdown Optimized:** Generates clean, valid Markdown syntax ready for GitHub/GitLab.
+*   **Quick Capture:** Save text notes instantly via Telegram messages.
+*   **Persistent Storage:** Notes are safely stored in a structured database.
+*   **Retrieval:** Easily query your saved notes.
+*   **Lightweight:** Minimal dependencies and low resource consumption.
+*   **Privacy-First:** Designed to run on your own infrastructure.
 
 ## Installation
 
-To install the project locally, ensure you have [Python](https://python.org/) installed, then follow these steps:
+### Prerequisites
+*   Python 3.9+
+*   A Telegram Bot Token (obtained via [@BotFather](https://t.me/botfather))
 
-1. **Clone the repository:**
+### Steps
+1. Clone the repository:
    ```bash
-   git clone https://github.com/maksymrusanov/readme_creator.git
+   git clone https://github.com/maksymrusanov/notes_tg.git
+   cd notes_tg
    ```
 
-2. **Navigate to the directory:**
-   ```bash
-   cd readme_creator
-   ```
-
-3. **Install dependencies:**
+2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
+3. Configure your environment variables:
+   Create a `.env` file in the root directory and add your credentials:
+   ```env
+   TELEGRAM_TOKEN=your_bot_token_here
+   ```
+
+4. Run the bot:
+   ```bash
+   python main.py
+   ```
+
 ## Usage
 
-To start the interactive generator, run the following command in your terminal:
-
-```bash
-python main.py
-```
-
-Follow the on-screen prompts to enter your github url. Once completed, a `README.md` file will be generated in your current working directory.
+1. Start a conversation with your bot on Telegram.
+2. Follow steps  to create a note.
 
 ## Contributing
 
-Contributions are welcome! To contribute to this project:
+Contributions are welcome! Please follow these steps to contribute:
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeatureName`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeatureName`).
-5. Open a Pull Request.
+1. **Fork** the repository.
+2. **Create** a feature branch (`git checkout -b feature/amazing-feature`).
+3. **Commit** your changes (`git commit -m 'Add some amazing feature'`).
+4. **Push** to the branch (`git push origin feature/amazing-feature`).
+5. **Open a Pull Request**.
 
-Please ensure your code adheres to the existing style and includes appropriate tests where applicable.
+Please ensure your code follows PEP 8 guidelines and includes tests where applicable.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
